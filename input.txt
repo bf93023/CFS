@@ -1,0 +1,43 @@
+N-Body Simulation Input File
+
+Format: name x y z vx vy vz mass
+
+Units: meters, m/s, kg
+
+--- Sun-Earth-Moon System (Simplified) ---
+
+Data is approximate, in Ecliptic coordinates
+
+Sun
+
+Sun 0.0 0.0 0.0 0.0 0.0 0.0 1.989e30
+
+Earth
+
+Avg orbital speed ~29,780 m/s
+
+Earth 1.496e11 0.0 0.0 0.0 29780.0 0.0 5.972e24
+
+Moon
+
+Position is Earth's + 3.844e8
+
+Velocity is Earth's + ~1,022 m/s
+
+Moon 1.499844e11 0.0 0.0 0.0 30802.0 0.0 7.347e22
+
+A test satellite in LEO
+
+Position is Earth's + 6,771km
+
+Velocity is Earth's + ~7,670 m/s (tangential to Earth)
+
+LEO_Sat 1.49606771e11 0.0 0.0 0.0 37450.0 0.0 5000.0
+
+A test satellite in GEO
+
+Position is Earth's + 42,164km
+
+Velocity is Earth's + ~3,070 m/s
+
+GEO_Sat 1.49642164e11 0.0 0.0 0.0 32850.0 0.0 2000.0
